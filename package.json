@@ -1,7 +1,7 @@
 {
   "name": "alphabet",
   "description": "The english alphabet as a string or array, upper and lowercase.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/alphabet",
   "author": {
     "name": "Jon Schlinkert",
@@ -14,22 +14,17 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/alphabet/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/alphabet/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/alphabet/blob/master/LICENSE-MIT"
+  },
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "docs": "update && license && npmignore && deps && verb",
+    "all": "npm run docs"
   },
   "keywords": [
     "docs",
