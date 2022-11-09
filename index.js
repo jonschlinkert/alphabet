@@ -7,8 +7,8 @@
 
 'use strict';
 
-const lower = 'abcdefghijklmnopqrstuvwxyz';
-const upper = lower.toUpperCase();
+var lower = 'abcdefghijklmnopqrstuvwxyz';
+var upper = lower.toUpperCase();
 
 /*
 Why `+` instead of template literal?
