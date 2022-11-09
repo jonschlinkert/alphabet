@@ -1,7 +1,7 @@
 {
   "name": "alphabet",
   "description": "The english alphabet as a string or array, upper and lowercase.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/alphabet",
   "author": {
     "name": "Jon Schlinkert",
