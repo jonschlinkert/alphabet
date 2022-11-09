@@ -7,10 +7,9 @@
 
 'use strict';
 
-const lower = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ];
-const upper = lower.map(c => c.toUpperCase())
+const lower = 'abcdefghijklmnopqrstuvwxyz';
+const upper = lower.toUpperCase();
 
 module.exports = [...upper, ...lower];
-
-module.exports.lower = lower;
-module.exports.upper = upper;
+module.exports.lower = [...lower];
+module.exports.upper = [...upper];
